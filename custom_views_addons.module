@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Drupal needs this blank file.
+ * custom_views_addons
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function custom_views_addons_views_api() {
+    return array(
+        'api' => 3,
+        'path' => drupal_get_path('module', 'custom_views_addons') . '/views',
+    );
+}
+

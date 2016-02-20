@@ -1,0 +1,8 @@
+name = Custom views addons (custom_views_addons)
+core = 7.x
+package = Features
+features[features_api][] = api:2
+
+; Views includes
+;files[] = custom_views_addons.views.inc
+files[] = views/custom_views_addons_handler_filter_main_resp.inc
